@@ -1,0 +1,31 @@
+{
+  "name": "마두샨카BOT",
+  "description": "Javascript WhatsApp bot made by MADUSHANKA",
+  "logo": "https://files.catbox.moe/su67w9.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Q2kTRQST#xAcFYJ8vstZYqWa-WiXvS7acnzCGYh8J_ZNGRlG0XnI",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "https://files.catbox.moe/su67w9.jpg",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Hello",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
